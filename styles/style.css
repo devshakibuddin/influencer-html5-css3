@@ -126,4 +126,66 @@ nav a{
     color:#E02C6D;
     margin-top: 22px;
     margin-right: 22px;
+    cursor: pointer;
+}
+
+/* featured-products */
+.featured-products{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.featured-title{
+    font-size: 38px;
+    font-weight: 700;
+    
+}
+
+.featured-description{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+
+.featured-btn{
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #E02C6D;
+    border: none;
+
+}
+
+.btn-arrow{
+    padding-left: 10px;
+}
+
+/* Footer start  */
+footer{
+    background-color: #0a0826;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.influencer-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.influencer p{
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.social-icon i{
+    font-size: 14px;
+    border-radius: 25px;
+    padding-right: 10px;
 }
