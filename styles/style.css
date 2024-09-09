@@ -189,3 +189,53 @@ footer{
     border-radius: 25px;
     padding-right: 10px;
 }
+
+
+/* =======
+           RESPONSIVE DEVICE
+      ========== */
+/* mobile device */
+@media only screen and (max-width: 688px) {
+.menu{
+    display: none;
+  }  
+  .banner{
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+        font-size: 26px;
+        line-height: 39px;
+    }
+    .partners{
+        flex-wrap: wrap;
+    }
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items:center;
+    }
+
+    .featured-products{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .featured-des{
+        padding: 10px;
+    }
+}
+
+/* tablet device */
+@media only screen and (min-width: 689px) and (max-width: 992px){
+    .container{
+        padding-left: 50px;
+    }
+    .menu{
+        padding-right: 40px;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .featured-des{
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+}
